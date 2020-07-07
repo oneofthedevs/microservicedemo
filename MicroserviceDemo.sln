@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1082
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceDemo", "MicroserviceDemo\MicroserviceDemo.csproj", "{C2D13722-64A2-4A77-A08E-222A42B7D4F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Micro", "Micro\Micro.csproj", "{AB52B59A-BE31-401F-A31F-77DC1562C3B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway", "Gateway\Gateway.csproj", "{D0881172-5C76-4739-A6AD-EDB6E7589F31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C2D13722-64A2-4A77-A08E-222A42B7D4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2D13722-64A2-4A77-A08E-222A42B7D4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2D13722-64A2-4A77-A08E-222A42B7D4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2D13722-64A2-4A77-A08E-222A42B7D4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB52B59A-BE31-401F-A31F-77DC1562C3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB52B59A-BE31-401F-A31F-77DC1562C3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB52B59A-BE31-401F-A31F-77DC1562C3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB52B59A-BE31-401F-A31F-77DC1562C3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0881172-5C76-4739-A6AD-EDB6E7589F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0881172-5C76-4739-A6AD-EDB6E7589F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0881172-5C76-4739-A6AD-EDB6E7589F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0881172-5C76-4739-A6AD-EDB6E7589F31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
